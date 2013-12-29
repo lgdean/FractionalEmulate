@@ -12,7 +12,7 @@ endif
 
 
 clean:
-	rm -f fractional-emulate.dvi fractional-emulate.ps fractional-emulate.pdf
+	rm -f fractional-emulate.dvi fractional-emulate.ps fractional-emulate.pdf *.aux *.log
 
 dvi: fractional-emulate.dvi
 
