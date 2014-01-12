@@ -18,9 +18,10 @@
 
 %\tableofcontents
 
-In this paper we describe the fractional emulate concept. This concept
-is analogous to fractional stable: do the given call until you've
-turned the given fraction, and then continue with the rest of the
+In this paper we describe the fractional emulate concept, invoked
+with $<$fraction$>$ emulate $<$call$>$. This concept
+is analogous to fractional stable: do $<$call$>$ until you've
+turned $<$fraction$>$, and then continue with the rest of the
 call, but emulate it -- that is, do any subsequent turning motions 
 but remain in place.
 
@@ -51,7 +52,7 @@ Some more fun equivalences:
 1/4 emulate Couples Trade  & Stack the Wheel \\
 1/4 emulate Box Counter Rotate 1/2 & Couple Up \\
 1/4 emulate Flip the Line ($n$/4) & Patch the centers \\
-(but not 1/4 emulate 2/3 Recycle) & \\
+%(but not 1/4 emulate 2/3 Recycle) & \\
 \hline
 \end{tabular}
 
@@ -64,49 +65,65 @@ trailers work 3/4 emulate, Follow Your Leader.
 %The effect of the trailers working 3/4 emulate despite having turned
 %the total amount of the call is to stop them from moving ahead to be 1 and 2 in a column.
 
-Many of the above examples result in rolling,
+Many of the above examples result in adding rolls to existing calls,
 or in working fractional twosome,
 but this is not necessary.
 Consider, for example, 1/2 emulate Swing Thru
 (or other calls in the $n$/4 Thru family, with $n$/4 emulate).
-On this call, the new centers U-Turn back toward each other.
+On this call, the new centers U-Turn back toward each other,
+which is counter to their rolling direction.
 Calls of this ilk may or may not end up feeling good to dance!
 
 \section{A worked example}
 
 Here we work three examples, all involving Box Transfer.
-From a given starting setup, we show 3 variants of the call:
+From a given starting setup, we show three variants of the call:
 emulating after 1/4, 1/2, and 3/4.
 
 1/4 emulate Box Transfer
 follows plainly from the definition,
 but 1/2 emulate and 3/4 emulate
-Box Transfer require breathing, resulting in a Z.
-(TODO do we even need this much explanation?
-Or maybe ``plainly'' is the wrong way to put it.)
+Box Transfer require breathing to create a new plane for the centers,
+resulting in a Z.
 
 \displaytwo{
   \dancer{1}{n} & \dancer{2}{s} \\
   \dancer{3}{n} & \dancer{4}{s} \\
-}{starting formation for $n$/4 emulate box transfer}{
+}{starting formation for $n$/4 emulate Box Transfer}{
   \dancer{1}{w} \\
   \dancer{3}{w} \\
   \dancer{2}{e} \\
   \dancer{4}{e} \\
-}{1/4 emulate box transfer}
+}{1/4 emulate Box Transfer}
 
 \displaytwo{
   \idancer & \dancer{1}{w} \\
   \dancer{2}{e} & \dancer{3}{w} \\
   \dancer{4}{e} & \idancer
-}{1/2 emulate box transfer}{
+}{1/2 emulate Box Transfer}{
   \dancer{4}{e} & \dancer{2}{e} & \idancer \\
   \idancer & \dancer{3}{w} & \dancer{1}{w} \\
-}{3/4 emulate box transfer}
+}{3/4 emulate Box Transfer}
 
-This marks another difference from
-fractional stable: if a call involves turning $n$/4, the $n$/4 stable
-version will be equivalent to the original call while the $n$/4
+\vspace{0.5cm}
+
+Similarly, Curl Thru (which also ends in a Z) can be defined
+as 1/2 emulate Crossfire.
+On the other hand, Scoot Back to a Wave
+is defined to end in a single quarter tag,
+and is therefore {\em not} the same as 1/2 emulate Scoot Back.
+
+% or ``Properties and Limitations''?  hm, dunno.
+\section{Not exactly analogous}
+\label{sec:nonanalogy}
+
+The fractional emulate concept is analogous to fractional stable,
+but some properties are different,
+because the concept can change the ending position of the call.
+
+The 3/4 emulate Box Transfer example (above) illustrates one difference:
+if a call involves turning $n$/4, the $n$/4 stable
+version will be equivalent to the original call, while the $n$/4
 emulate version may not. The concepts differ when the call involves
 changing position but not direction after the last turn (for example,
 extending in the case of box transfer).
@@ -114,27 +131,15 @@ extending in the case of box transfer).
 The $(n+1)/4$ emulate version, however,
 will indeed be equivalent to the original call.
 
-In other Z-related news, Curl Thru can be defined
-as a 1/2 emulate Crossfire.
-% note how I resist saying ``in other newz'' here. :)
-% TODO was ``likewise'' better?  it didn't seem likewise any more,
-% once I moved the other paragraphs above it.
-
-% or ``Properties and Limitations''?  hm, dunno.
-\section{Not exactly analogous}
-\label{sec:nonanalogy}
-
-The fractional emulate concept is analogous to fractional stable,
-but (at least) one property is different.
 With fractional stable,
 if a given call X is legal from a given starting setup,
 then fractional stable X is also possible.
 (This is also true for just plain stable, or just plain emulate.)
 With fractional emulate, this is not the case!
 Consider, for example: 1/2 emulate, Box Circulate twice.
-In this call, people try to end up on the same spot,
-with the same facing direction
-(so they can't even think about taking right hands).
+In this call, people try to end up on the same spot
+with the same facing direction,
+so they cannot apply collision rules.
 
 Some calls won't work well, because the position isn't well-defined
 when you've turned a certain number of quarters.  Consider, for
